@@ -11,11 +11,10 @@ CREATED ON: 23.06.2017
 /* ELEMENTS */
 * {
     scroll-behavior: smooth;
-    font-family: Montserrat, sans-serif;
+    font: 400 14px Montserrat, sans-serif;
+    line-height: 1.8;
 }
 body {
-    font: 400 15px Montserrat, sans-serif;
-    line-height: 1.8;
     color: #818181;
     background-color: #fff;
 }
@@ -85,8 +84,8 @@ section {
     animation-name: slide;
     -webkit-animation-name: slide;
 
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
+    animation-duration: 0.8s;
+    -webkit-animation-duration: 0.8s;
 
     visibility: visible;
 }
@@ -114,6 +113,10 @@ section {
 }
 
 /* IDs*/
+#services-container > div {
+    min-height: 210px;
+}
+
 #google-maps {
     width: 100%;
     height: 400px;

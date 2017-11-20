@@ -20,20 +20,13 @@ $(document).ready(function () {
         });
     }
 
-    // Enable the "scroll to top" function
-    $("#scrolltop").click(function () {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 500);
-        return false;
-    });
-
     // Slideanimation effect
     $(window).scroll(function () {
         $('.slideanimation').each(function () {
             var pos = $(this).offset().top;
             var winTop = $(window).scrollTop();
-            if (pos < winTop + 600) {
+            var winHeight = $(window).height();
+            if (pos < winTop + (winHeight * 0.75)) {
                 $(this).addClass("slide");
             }
         });
