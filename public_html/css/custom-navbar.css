@@ -1,0 +1,35 @@
+/* 
+AUTHOR: Daniel Kleebinder
+CREATED ON: 23.06.2017
+*/
+
+
+/* Custom Navbar*/
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #203341;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar .in {
+    border-bottom: 1px solid #fff;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #203341 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
