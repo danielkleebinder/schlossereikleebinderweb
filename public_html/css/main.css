@@ -1,6 +1,6 @@
 /* 
-AUTHOR: Daniel Kleebinder
-CREATED ON: 23.06.2017
+    Created on : 23.06.2017
+    Author     : Daniel Kleebinder
 */
 
 
@@ -27,7 +27,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-h4 {
+h4, h4 strong {
     font-size: 19px;
     line-height: 1.375em;
     color: #303030;
@@ -48,6 +48,10 @@ section {
 
 .min-width {
     min-width: 100px;
+}
+
+.word-break {
+    word-wrap: break-word;
 }
 
 .logo-small {
@@ -71,48 +75,11 @@ section {
     padding-right: 10px;
 }
 
-.row-1 {
-    margin-top: 50px;
-}
-
-/* Slide Animations */
-.slideanimation {
-    visibility: hidden;
-}
-.slide {
-    animation: slide;
-    animation-name: slide;
-    -webkit-animation-name: slide;
-
-    animation-duration: 0.8s;
-    -webkit-animation-duration: 0.8s;
-
-    visibility: visible;
-}
-
-@keyframes slide {
-    0% {
-        opacity: 0;
-        transform: translateY(70%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0%);
-    }
-}
-
-@-webkit-keyframes slide {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(70%);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0%);
-    }
-}
 
 /* IDs*/
+#services-container {
+    padding-top: 40px;
+}
 #services-container > div {
     min-height: 210px;
 }

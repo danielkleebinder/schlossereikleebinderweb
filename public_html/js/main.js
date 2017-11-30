@@ -1,6 +1,6 @@
 /* 
- * AUTHOR: Daniel Kleebinder
- * CREATED ON: 23.06.2017
+ Created on : 23.06.2017
+ Author     : Daniel Kleebinder
  */
 
 
@@ -22,12 +22,23 @@ $(document).ready(function () {
 
     // Slideanimation effect
     $(window).scroll(function () {
-        $('.slideanimation').each(function () {
+        $('.slideanimation, .slideanimation-up, .slideanimation-down, .slideanimation-left, .slideanimation-right').each(function () {
             var pos = $(this).offset().top;
             var winTop = $(window).scrollTop();
             var winHeight = $(window).height();
             if (pos < winTop + (winHeight * 0.75)) {
-                $(this).addClass("slide");
+                if ($(this).hasClass('slideanimation') || $(this).hasClass('slideanimation-up')) {
+                    $(this).addClass('slide-up');
+                }
+                if ($(this).hasClass('slideanimation-down')) {
+                    $(this).addClass('slide-down');
+                }
+                if ($(this).hasClass('slideanimation-left')) {
+                    $(this).addClass('slide-left');
+                }
+                if ($(this).hasClass('slideanimation-right')) {
+                    $(this).addClass('slide-right');
+                }
             }
         });
     });

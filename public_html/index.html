@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
-AUTHOR: Daniel Kleebinder
-CREATED ON: 23.06.2017
+Author     : Daniel Kleebinder
+Created on : 23.06.2017
 -->
 <html>
     <head>
@@ -23,6 +23,7 @@ CREATED ON: 23.06.2017
         <!-- Bind StyleSheets -->
         <link rel="stylesheet" type="text/css" href="css/libs/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/libs/jquery.fancybox.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slide-animation.css"/>
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
         <link rel="stylesheet" type="text/css" href="css/custom-bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="css/custom-navbar.css"/>
@@ -87,14 +88,14 @@ CREATED ON: 23.06.2017
                     <div class="row">
                         <div class="col-md-8 col-sm-12 col-xs-12">
                             <h2 class="page-header">Wir Über Uns</h2>
-                            <h4 style="text-align: justify">
+                            <h4 class="text-justify">
                                 Gegründet wurde unsere Firma im Jahre 1919, mein Großvater
                                 arbeitete schon in den Zweigen Schlosserei und Landmaschinen,
                                 in den Zeiten in denen er den Betrieb führte, wurde oft aus
                                 der Not eine Tugend, er war geschätzt für seinen Erfindungsgeist – aus
                                 den geringsten Mitteln die zur Verfügung standen auch das Beste zu machen.
                             </h4>
-                            <p style="text-align: justify">
+                            <p class="text-justify">
                                 Dann übernahm mein Vater den Betrieb, der diesen erweiterte und
                                 die Basis für einen fundierten Schlosserbetrieb gründete. Wobei
                                 auch der Handel mit Landmaschinen und die Reparatur dieser nicht
@@ -103,32 +104,39 @@ CREATED ON: 23.06.2017
                                 und sind  für jeden Spezialauftrag offen. Wir widmen uns jeder Sparte,
                                 ob Schlosserei, Stahlbau, Landmaschinen oder Schmiede.
                             </p>
-
-                            <!-- E-Mail And Phone Buttons -->
-                            <!-- Normal Buttons -->
-                            <div class="hidden-xs btn-group">
-                                <a class="btn btn-primary btn-lg" href="#contact">
-                                    <span class="glyphicon glyphicon-map-marker"></span>
-                                </a>
-                                <a class="btn btn-default btn-lg" href="mailto:office@schlosserei-kleebinder.at">office@schlosserei-kleebinder.at</a>
-                                <a class="btn btn-warning btn-lg" href="tel:027492324">02749/2324</a>
-                            </div>
-
-                            <div class="hidden-lg hidden-md hidden-sm btn-group">
-                                <a class="btn btn-default btn-lg" href="#contact">
-                                    <span class="glyphicon glyphicon-map-marker"></span>
-                                </a>
-                                <a class="btn btn-primary btn-lg" href="mailto:office@schlosserei-kleebinder.at">
-                                    <span class="glyphicon glyphicon-envelope"></span>
-                                </a>
-                                <a class="btn btn-warning btn-lg" href="tel:027492324">
-                                    <span class="glyphicon glyphicon-earphone"></span>
-                                </a>
-                            </div>
                         </div>
                         <div class="hidden-sm hidden-xs col-md-4 slideanimation">
                             <span class="glyphicon glyphicon-signal logo"></span>
                         </div>
+                    </div>
+                    <p class="text-justify">
+                        Wir freuen uns auch über die nächste Generation, die auch in Zukunft alle
+                        Arbeiten unserer Kunden innovativ und mit größter Sorgfalt ausführen
+                        wird. Unser Sohn, <strong>Franz Kleebinder</strong>, hat die Prüfungen zum IWS - International
+                        Welding Specialist (Schweißwerksmeister) und die Meisterprüfung zum
+                        Metalltechniker erfolgreich abgelgt. 
+                    </p>
+
+                    <!-- E-Mail And Phone Buttons -->
+                    <!-- Normal Buttons -->
+                    <div class="hidden-xs btn-group">
+                        <a class="btn btn-primary btn-lg" href="#contact">
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                        </a>
+                        <a class="btn btn-default btn-lg" href="mailto:office@schlosserei-kleebinder.at">office@schlosserei-kleebinder.at</a>
+                        <a class="btn btn-warning btn-lg" href="tel:027492324">02749/2324</a>
+                    </div>
+
+                    <div class="hidden-lg hidden-md hidden-sm btn-group">
+                        <a class="btn btn-default btn-lg" href="#contact">
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                        </a>
+                        <a class="btn btn-primary btn-lg" href="mailto:office@schlosserei-kleebinder.at">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </a>
+                        <a class="btn btn-warning btn-lg" href="tel:027492324">
+                            <span class="glyphicon glyphicon-earphone"></span>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -142,8 +150,8 @@ CREATED ON: 23.06.2017
                         </div>
                         <div class="col-md-8 col-sm-12 col-xs-12">
                             <h2 class="page-header">Was Wir Ihnen Bieten Können</h2>
-                            <h4 style="text-align: justify">
-                                <strong>UNSER ZIEL:</strong> All Ihre Wünsche mit unserem Fachwissen so gut und schnell wie möglich umsetzen
+                            <h4 class="text-justify">
+                                <strong class="text-uppercase">UNSER ZIEL:</strong> All Ihre Wünsche mit unserem Fachwissen so gut und schnell wie möglich umsetzen
                             </h4>
                             <div class="row">
                                 <div class="col-sm-6">
@@ -162,7 +170,7 @@ CREATED ON: 23.06.2017
                                         <li>Schmiedeisenarbeiten</li>
                                         <li>Landmaschinenreparaturen</li>
                                         <li>Kunst aus Stahl</li>
-                                        <li style="font-weight: bold;">und vieles mehr ....</li>
+                                        <li><strong>und vieles mehr ....</strong></li>
                                     </ul>
                                 </div>
                             </div>
@@ -176,7 +184,6 @@ CREATED ON: 23.06.2017
                 <div class="container text-center">
                     <h2 class="text-center page-header">Services</h2>
                     <h4 class="text-capitalize">Services und Dienstleistungen die wir Ihnen anbieten können</h4>
-                    <br/>
 
                     <div id="services-container" class="row slideanimation">
                         <div class="col-sm-4">
@@ -191,20 +198,21 @@ CREATED ON: 23.06.2017
                         </div>
                         <div class="col-sm-4">
                             <span class="glyphicon glyphicon-fire logo-small"></span>
-                            <h4 class="text-uppercase">Schmiedeeisenarbeiten</h4>
+                            <h4 class="hidden-sm text-uppercase">Schmiedeeisenarbeiten</h4>
+                            <h4 class="hidden-lg hidden-md hidden-xs hidden-print text-uppercase">Schmiedeeisen-arbeiten</h4>
                             <p>Seit 1919 fertigen wir bereits die schönsten Schmiedearbeiten an</p>
                         </div>
-                        <div class="col-sm-4 row-1">
+                        <div class="col-sm-4">
                             <span class="glyphicon glyphicon-link logo-small"></span>
                             <h4 class="text-uppercase">Schweißarbeiten</h4>
                             <p>Geprüfte und erfahrene Arbeiter erledigen Ihre Schweißarbeiten mit bester Sorgfalt</p>
                         </div>
-                        <div class="col-sm-4 row-1">
+                        <div class="col-sm-4">
                             <span class="glyphicon glyphicon-stats logo-small"></span>
                             <h4 class="text-uppercase">Kunst aus Stahl</h4>
                             <p>Die schönsten Schmiede- und Stahlarbeiten aller Art seit fast einem Jahrhundert</p>
                         </div>
-                        <div class="col-sm-4 row-1">
+                        <div class="col-sm-4">
                             <span class="glyphicon glyphicon-wrench logo-small"></span>
                             <h4 class="text-uppercase">Montagen</h4>
                             <p>Ob Stahlmontagen oder -demontage, alle Arbeiten werden erledigt</p>
@@ -267,7 +275,7 @@ CREATED ON: 23.06.2017
                                 </a>
                                 <p class="hidden-xs"><strong>Fahrradständer</strong></p>
                                 <p class="hidden-lg hidden-md hidden-print hidden-sm"><strong>Fahrrad Ständer</strong></p>
-                                <p class="hidden-xs">
+                                <p class="hidden-xs hidden-sm">
                                     Aus Nirostarohr 42/2 mm, Höhe: 80 cm, Breite: 30 cm, Tiefe: 50 cm, Befestigungsplatte mit 4 Löchern.
                                 </p>
                             </div>
@@ -279,7 +287,7 @@ CREATED ON: 23.06.2017
                                 </a>
                                 <p class="hidden-xs"><strong>Christbaumkreuz</strong></p>
                                 <p class="hidden-lg hidden-md hidden-print hidden-sm"><strong>Christbaum Kreuz</strong></p>
-                                <p class="hidden-xs">
+                                <p class="hidden-xs hidden-sm">
                                     Aus Stahl, handgeschmiedet, lackiert, stabile Ausführung, mit Wasserbehälter.<br>
                                     Standdurchmesser: 400 mm und 500 mm. Maße variabel.
                                 </p>
@@ -291,7 +299,7 @@ CREATED ON: 23.06.2017
                                     <img src="resources/thumbnails/griller.jpg" alt="Griller">
                                 </a>
                                 <p><strong>Griller</strong></p>
-                                <p class="hidden-xs">
+                                <p class="hidden-xs hidden-sm">
                                     Griller für Spanferkel, mit Saftauffangtasse und Überdachung, elektrischer
                                     Antrieb, Korb für Holzscheite und Aschenlade, ausgerichtet für 2 Spanferkel.
                                 </p>
@@ -303,7 +311,7 @@ CREATED ON: 23.06.2017
                                     <img src="resources/thumbnails/teppichwagen.jpg" alt="Teppichwagen">
                                 </a>
                                 <p><strong>Teppichwagen</strong></p>
-                                <p class="hidden-xs">
+                                <p class="hidden-xs hidden-sm">
                                     Produkte zum Transport oder Lagerung anfallender Waren werden je nach Bedarf gefertigt.
                                 </p>
                             </div>
